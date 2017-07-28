@@ -62,7 +62,6 @@ public class ReplaceCommonAuthorURIs {
         }
         con.commit();
         con.close();
-
         identifySameURIs();
         repository.shutDown();
     }
